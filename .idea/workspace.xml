@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02737b6c-3f29-4984-bdbf-03ae3c9b7b81" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/design/observer/NBAObserverImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/design/observer/NBASubjectImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/design/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/design/observer/StockObserverImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/design/observer/StockSubjectImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/design/observer/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/DesignMode.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/design/status/AMStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/design/status/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/design/status/NightStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/design/status/OneDateContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/design/status/PMStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/design/status/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learn/design/StatusTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/design/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/design/app.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,20 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/app.java">
+      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/status/Context.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -45,8 +34,8 @@
       <file leaf-file-name="ObserverTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/learn/design/ObserverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="684">
+              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,72 +43,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Subject.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/Subject.java">
+      <file leaf-file-name="OneDateContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/status/OneDateContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="45" column="5" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="589">
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NBASubjectImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/NBASubjectImpl.java">
+      <file leaf-file-name="Status.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/status/Status.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/Observer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="100">
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NBAObserverImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/NBAObserverImpl.java">
+      <file leaf-file-name="AMStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/status/AMStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="285">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StockObserverImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/StockObserverImpl.java">
+      <file leaf-file-name="PMStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/status/PMStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-              <folding>
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StockSubjectImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/StockSubjectImpl.java">
+      <file leaf-file-name="NightStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/status/NightStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="264">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatusTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/learn/design/StatusTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="14" column="26" selection-start-line="13" selection-start-column="8" selection-end-line="14" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,7 +143,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/learn/design/observer/StockObserverImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/learn/design/observer/NBASubjectImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/learn/design/observer/StockSubjectImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/design/status/status.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/design/status/Context.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/learn/design/ObserverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/design/status/Status.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/design/status/AMStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/design/status/PMStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/design/status/OneDateContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/learn/design/status/NightStatus.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/learn/design/StatusTest.java" />
       </list>
     </option>
   </component>
@@ -197,7 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -239,7 +236,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="status" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learndesignmode" type="b2602c69:ProjectViewProjectNode" />
@@ -266,7 +263,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ObserverTest.testOneSubject2">
+  <component name="RunManager" selected="JUnit.StatusTest.statusDemoTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -302,6 +299,29 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration name="ObserverTest.testDecide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.learn.design" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.design.ObserverTest" />
+      <option name="METHOD_NAME" value="testDecide" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="ObserverTest.testOneSubject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignMode" />
@@ -339,6 +359,29 @@
       <option name="PACKAGE_NAME" value="com.learn.design" />
       <option name="MAIN_CLASS_NAME" value="com.learn.design.ObserverTest" />
       <option name="METHOD_NAME" value="testOneSubject2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StatusTest.statusDemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.design.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.learn.design" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.design.StatusTest" />
+      <option name="METHOD_NAME" value="statusDemoTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -391,9 +434,13 @@
       <item itemvalue="Application.app" />
       <item itemvalue="JUnit.ObserverTest.testOneSubject" />
       <item itemvalue="JUnit.ObserverTest.testOneSubject2" />
+      <item itemvalue="JUnit.ObserverTest.testDecide" />
+      <item itemvalue="JUnit.StatusTest.statusDemoTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatusTest.statusDemoTest" />
+        <item itemvalue="JUnit.ObserverTest.testDecide" />
         <item itemvalue="JUnit.ObserverTest.testOneSubject2" />
         <item itemvalue="JUnit.ObserverTest.testOneSubject" />
         <item itemvalue="Application.app" />
@@ -413,47 +460,54 @@
       <workItem from="1543810092508" duration="9546000" />
       <workItem from="1543892609894" duration="2333000" />
       <workItem from="1547119948759" duration="26000" />
-      <workItem from="1547385706987" duration="373000" />
+      <workItem from="1547385706987" duration="962000" />
+      <workItem from="1547431240466" duration="925000" />
+      <workItem from="1547603260758" duration="11012000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ObserverTest_testOneSubject - 2018.12.03 at 19h 32m 08s.xml">
-      <configuration name="ObserverTest.testOneSubject" configurationId="JUnit" />
+    <history-entry file="ObserverTest_testDecide - 2019.01.16 at 16h 10m 34s.xml">
+      <configuration name="ObserverTest.testDecide" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverTest_testOneSubject - 2018.12.03 at 19h 32m 47s.xml">
-      <configuration name="ObserverTest.testOneSubject" configurationId="JUnit" />
+    <history-entry file="ObserverTest_testDecide - 2019.01.16 at 16h 11m 09s.xml">
+      <configuration name="ObserverTest.testDecide" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverTest_testOneSubject - 2018.12.03 at 19h 33m 54s.xml">
-      <configuration name="ObserverTest.testOneSubject" configurationId="JUnit" />
+    <history-entry file="ObserverTest_testDecide - 2019.01.16 at 16h 11m 32s.xml">
+      <configuration name="ObserverTest.testDecide" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverTest_testOneSubject2 - 2018.12.04 at 11h 21m 37s.xml">
-      <configuration name="ObserverTest.testOneSubject2" configurationId="JUnit" />
+    <history-entry file="StatusTest_statusDemoTest - 2019.01.16 at 19h 53m 58s.xml">
+      <configuration name="StatusTest.statusDemoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverTest_testOneSubject2 - 2018.12.04 at 11h 24m 56s.xml">
-      <configuration name="ObserverTest.testOneSubject2" configurationId="JUnit" />
+    <history-entry file="StatusTest_statusDemoTest - 2019.01.16 at 19h 54m 42s.xml">
+      <configuration name="StatusTest.statusDemoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverTest_testOneSubject2 - 2018.12.04 at 11h 25m 21s.xml">
-      <configuration name="ObserverTest.testOneSubject2" configurationId="JUnit" />
+    <history-entry file="StatusTest_statusDemoTest - 2019.01.16 at 19h 55m 50s.xml">
+      <configuration name="StatusTest.statusDemoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverTest_testOneSubject2 - 2018.12.04 at 11h 25m 37s.xml">
-      <configuration name="ObserverTest.testOneSubject2" configurationId="JUnit" />
+    <history-entry file="StatusTest_statusDemoTest - 2019.01.16 at 19h 56m 07s.xml">
+      <configuration name="StatusTest.statusDemoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverTest_testOneSubject2 - 2018.12.04 at 11h 32m 19s.xml">
-      <configuration name="ObserverTest.testOneSubject2" configurationId="JUnit" />
+    <history-entry file="StatusTest_statusDemoTest - 2019.01.16 at 20h 37m 42s.xml">
+      <configuration name="StatusTest.statusDemoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ObserverTest_testOneSubject2 - 2018.12.04 at 11h 32m 36s.xml">
-      <configuration name="ObserverTest.testOneSubject2" configurationId="JUnit" />
+    <history-entry file="StatusTest_statusDemoTest - 2019.01.16 at 20h 39m 42s.xml">
+      <configuration name="StatusTest.statusDemoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StatusTest_statusDemoTest - 2019.01.16 at 20h 40m 45s.xml">
+      <configuration name="StatusTest.statusDemoTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12278000" />
+    <option name="totallyTimeSpent" value="24804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32874355" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -461,11 +515,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.1762481" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31153184" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39414802" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -475,7 +529,6 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32874355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -489,6 +542,88 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/app.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/learn/design/ObserverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/NBASubjectImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/NBAObserverImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/StockObserverImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/StockSubjectImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -519,6 +654,10 @@
           <caret line="45" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -594,6 +733,10 @@
           <caret line="45" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -675,6 +818,10 @@
           <caret line="10" column="24" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -715,27 +862,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/Abc.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/Abcd.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/app.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/learn/design/ObserverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,7 +878,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/NBASubjectImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
+        <state relative-caret-position="741">
           <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -758,7 +888,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/StockSubjectImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="779">
           <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -768,7 +898,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/StockObserverImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="228">
           <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
           <folding>
             <element signature="e#181#182#0" expanded="true" />
@@ -792,8 +922,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/observer/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="664">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/app.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/learn/design/ObserverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/status/PMStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/status/AMStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/status/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/status/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/status/OneDateContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/learn/design/status/NightStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/learn/design/StatusTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="14" column="26" selection-start-line="13" selection-start-column="8" selection-end-line="14" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
